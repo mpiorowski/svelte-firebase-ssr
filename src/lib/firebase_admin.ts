@@ -1,11 +1,9 @@
-import { FIREBASE_SERVER_CONFIG } from "$env/static/private";
+import { SERVICE_ACCOUNT } from "$env/static/private";
 import admin, { type ServiceAccount } from "firebase-admin";
 
 export function getFirebaseAdmin() {
     if (!admin.apps.length) {
-        const serviceAccount = JSON.parse(
-            FIREBASE_SERVER_CONFIG,
-        ) as ServiceAccount;
+        const serviceAccount = JSON.parse(SERVICE_ACCOUNT) as ServiceAccount;
         admin.initializeApp({
             credential: admin.credential.cert(serviceAccount),
         });
