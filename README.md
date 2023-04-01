@@ -1,5 +1,10 @@
 # Firebase authentication with SvelteKit SSR
 
+## Demo
+https://firebase-svelte-ssr.vercel.app
+
+## Description
+
 This template is using [Firebase Session Cookies](https://firebase.google.com/docs/auth/admin/manage-cookies) to set up authentication using SvelteKit node server.
 
 - The `firebase client` is used only to sign in, send the id token to server and after that automatically sign out.
