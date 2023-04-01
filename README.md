@@ -17,9 +17,9 @@ This solution has several advantages over client-side short-lived ID tokens, whi
 - Ability to revoke session cookies when token theft is suspected using the existing refresh token revocation API.
 - Ability to detect session revocation on major account changes.
 
-## Missing env
+## Missing environment variables
 
-For local dev create an .env file, for production build set as environment variables.
+For local development You can create an .env file in root folder.
 
 ```
 SERVICE_ACCOUNT='service account key object parsed as string'
