@@ -31,5 +31,3 @@ SERVICE_ACCOUNT='service account key object parsed as string'
 PUBLIC_API_KEY='firebase client api key'
 PUBLIC_AUTH_DOMAIN='firebase client auth domain'
 ```
-
-
