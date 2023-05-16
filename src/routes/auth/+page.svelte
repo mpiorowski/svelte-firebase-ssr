@@ -87,7 +87,7 @@
     <input
         type="email"
         bind:value={email}
-        placeholder="Enter your email address"
+        placeholder="Enter your email addresss"
     />
     <button on:click={signInWithMagicLink}>Sign in with magic link</button>
 </div>
