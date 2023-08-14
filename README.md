@@ -1,4 +1,4 @@
-# Firebase authentication with SvelteKit SSR
+# SvelteKit authentication with Firebase SSR
 
 ## Demo
 https://firebase-svelte-ssr.vercel.app
